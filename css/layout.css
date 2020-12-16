@@ -1,0 +1,190 @@
+* {
+  scroll-behavior: smooth;
+}
+html *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 110;
+    transition: top 0.3s;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: black;
+}
+.nav ul li:hover {
+    background-color: #a1a1a1;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav ul {
+    list-style-type: none;
+    width: 100%;
+}
+.nav ul li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    line-height: 48px;
+}
+.banner {
+    height: auto;
+}
+.banner img {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    z-index: 100;
+}
+.banner img.foto{
+    border: 5px ridge white;
+    margin-left: 43%;
+    top: 40%;
+    width: 200px;
+    z-index: 101;
+    position: absolute;
+}
+.name {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    z-index: 101;
+}
+.name h1 {
+    font-size: 45px;
+    color: white;
+    margin: 50px;
+    -webkit-text-stroke-width: 2px ;
+    -webkit-text-stroke-color: black;
+}
+.name p {
+    font-size: 35px;
+    color: white;
+    margin: 0px;
+    -webkit-text-stroke-width: 2px ;
+    -webkit-text-stroke-color: black;
+}
+.biodata {
+    width: 100vw;
+    height: 200px;
+    background-color: white;
+}
+.biodata h2{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 200;
+    font-size: 3em;
+}
+.biodata p {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    font-size: 1em;
+}
+.biodata p.full{
+    text-align: center;
+}
+.kualifikasi {
+    margin-top: 120px;
+    width: 100vw;
+    height: 150px;
+    background-color: white;
+}
+.kualifikasi h2{
+    text-align: center;
+    font-weight: 200;
+    font-size: 3em;
+}
+.kualifikasi li {
+    width: 700px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    font-size: 1em;
+}
+.pendidikan {
+    width: 100vw;
+    height: 200px;
+    background-color: white;
+}
+.pendidikan h2{
+    text-align: center;
+    font-weight: 200;
+    font-size: 3em;
+}
+.pendidikan li {
+    width: 700px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    font-size: 1em;
+}
+.address {
+    width: 100vw;
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+.address h2{
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 3em;
+}
+.address h2.titik{
+    padding-top: 10px;
+}
+.address p {
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.address iframe{
+    margin-left: 43%;
+}
+.contact {
+    width: 100vw;
+    height: 500px;
+    background-color: white;
+    color: black;
+}
+.contact h2{
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 3em;
+}
+.contact ul {
+    text-align: justify;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.contact a {
+    color: black;
+    text-align: center;
+    padding-left: 47vw;
+}
